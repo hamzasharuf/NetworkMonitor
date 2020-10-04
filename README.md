@@ -61,7 +61,7 @@ private fun handleConnectivityChange() {
         // Network is available
     }
 
-    if (!ConnectivityStateHolder.isConnected && previousSate) {
+    if (!ConnectivityStateHolder.isConnected) {
         // Network is not available
     }
 }
